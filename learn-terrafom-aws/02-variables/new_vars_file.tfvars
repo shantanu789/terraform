@@ -1,1 +1,1 @@
-new_file-variable = "VARIABLE FROM OUTSIDE FILE"
+new_file_variable = "VARIABLE FROM OUTSIDE FILE"
