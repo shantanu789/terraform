@@ -9,7 +9,7 @@ output "OUT_SAMPLE" {
 
 //Combined output sample output print
 
-output "COMBINED_OUT_SAMPLE" {
+output "OUT_COMBINED_SAMPLE" {
     value = "${var.sample}, Welcome."
 }
 
