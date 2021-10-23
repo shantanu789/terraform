@@ -62,3 +62,7 @@ output "OUT_SAMPLE_LIST" {
     #value1 = var.sample_list[1]
     #value2 = var.sample_list[3]
 }
+
+output "COMBINED_LIST_MAP" {
+    value = "${var.sample_list[0]} ${var.sample_list[3]}. My Name is ${var.sample_map["string1"]} and favourite number is ${var.sample_map["number"]}"
+}
