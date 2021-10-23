@@ -54,7 +54,7 @@ output "OUT_SAMPLE_MAP" {
 ##List variable type
 
 variable "sample_list" {
-    default = [ Hello, 2000, false, "World" ]
+    default = [ "Hello", 2000, false, "World" ]
 }
 
 output "OUT_SAMPLE_LIST" {
