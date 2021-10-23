@@ -47,8 +47,8 @@ variable "sample_map" {
 
 output "OUT_SAMPLE_MAP" {
     value = var.sample_map["string1"]
-    value1 = var.sample_map["number"]
-    value2 = var.sample_map["boolean"]
+    #value1 = var.sample_map["number"]
+    #value2 = var.sample_map["boolean"]
 }
 
 ##List variable type
@@ -59,6 +59,6 @@ variable "sample_list" {
 
 output "OUT_SAMPLE_LIST" {
     value = var.sample_list[0]
-    value1 = var.sample_list[1]
-    value2 = var.sample_list[3]
+    #value1 = var.sample_list[1]
+    #value2 = var.sample_list[3]
 }
