@@ -9,5 +9,5 @@ output "OUT_SAMPLE" {
 //Combined output sample output print
 
 output "COMBINED_OUT_SAMPLE" {
-    value = "$(var.sample), Welcome."
+    value = "${var.sample}, Welcome."
 }
