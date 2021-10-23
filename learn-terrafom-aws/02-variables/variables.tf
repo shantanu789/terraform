@@ -70,5 +70,5 @@ output "COMBINED_LIST_MAP" {
 variable "new_file-variable" {}
 
 output "OUT_NEW_VARS" {
-    value = var.NEW_VARS
+    value = var.new_file-variable
 }
