@@ -14,12 +14,12 @@ output "OUT_COMBINED_SAMPLE" {
 }
 
 ##Integer Data-type declaration , we can use Float data-type also
-variable "interger_sample" {
+variable "integer_sample" {
    default = 1001.101
 }
 
 output "OUT_INTEGER" {
-    value = var.interger_sample
+    value = var.integer_sample
 }
 
 ##Boolean Data-type : true or false
