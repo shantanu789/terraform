@@ -51,7 +51,7 @@ resource "aws_security_group" "allow_ssh" {
 
   egress = [
     {
-      description      = "This is egress"
+      description      = "ALL-egress"
       from_port        = 0
       to_port          = 0
       protocol         = "-1"
